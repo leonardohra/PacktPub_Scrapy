@@ -8,7 +8,7 @@ sudo apt-get install python3-pip python3-dev libssl-dev
 
 sudo pip3 install -U pip beautifulsoup4 setuptools 
 
-sudo pip3 install scrapy 
+sudo pip3 install -U scrapy 
 
 Note: If you try to install scrapy along with the others, it will give an error message, because it will not install the others first
 
