@@ -59,8 +59,8 @@ Run the bash file that will do all the work, the result will be on books_info.cs
 ### Windows:
 Run the file "url_books.py" with python 3
 
- python3 ./PacketPub/url_books.py
+python3 ./PacketPub/url_books.py
 
 Considering that you have scrapy installed, run it using the crawler "booksinfospider"
 
- scrapy crawl booksinfospider
+scrapy crawl booksinfospider
