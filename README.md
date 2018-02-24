@@ -1,5 +1,9 @@
 # PacktPub Scrapy
 
+## What does it do?
+
+This is a program to generate a csv file with information about your Packet Pub's ebooks (https://www.packtpub.com) without requiring you to log in. It uses the Scrapy library (https://scrapy.org/).
+
 ##Instalation
 
 ###Easy way:
