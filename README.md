@@ -49,8 +49,16 @@ sudo pip3 install -U scrapy
 
 ## How to use it: 
 
-Go to PacktPub's web site (https://www.packtpub.com) log in to your account, and go to your e-books (https://www.packtpub.com/account/my-ebooks). save this page as html with the name "MyeBooks.html", and put the html page on this project subdir called PacketPub/Support Files
+Go to PacktPub's web site (https://www.packtpub.com) log in to your account, and go to your e-books (https://www.packtpub.com/account/my-ebooks). save this page as html with the name "MyeBooks.html", and put the html page on this project subdir called PacketPub/Support Files and go back to the main directory
 
+### Linux:
 Run the bash file that will do all the work, the result will be on books_info.csv
 
 ./run.sh
+
+### Windows:
+Run the file "url_books.py" with python 3
+python3 ./PacketPub/url_books.py
+
+Considering that you have scrapy installed, run it using the crawler "booksinfospider"
+scrapy crawl booksinfospider
