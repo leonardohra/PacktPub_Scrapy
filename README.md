@@ -4,9 +4,9 @@
 
 This is a program to generate a csv file with information about your Packet Pub's ebooks (https://www.packtpub.com) without requiring you to log in. It uses the Scrapy library (https://scrapy.org/).
 
-##Instalation
+## Instalation
 
-###Easy way:
+### Easy way
 
 sudo apt-get install python3-pip python3-dev libssl-dev
 
@@ -16,7 +16,7 @@ sudo pip3 install -U scrapy
 
 Note: If you try to install scrapy along with the others, it will give an error message, because it will not install the others first
 
-###Explaination:
+### Explaination:
 
 There are 2 main files, a python script (url_books.py) and a Scrapy Spider (book_info_spider.py). I used python 3 for everything, so any "3" after some commands refer to that. url_books.py will use a library called "beautifulsoup", that needs to be installed before. You can install pip to install the library easily, the command to install pip on linux mint is 
 
@@ -47,7 +47,7 @@ Then you can finally install scrapy
 sudo pip3 install -U scrapy
 
 
-##How to use it: 
+## How to use it: 
 
 Go to PacktPub's web site (https://www.packtpub.com) log in to your account, and go to your e-books (https://www.packtpub.com/account/my-ebooks). save this page as html with the name "MyeBooks.html", and put the html page on this project subdir called PacketPub/Support Files
 
